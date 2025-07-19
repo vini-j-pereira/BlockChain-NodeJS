@@ -1,0 +1,30 @@
+{
+  "name": "blockchain-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto prototipo BlockChain",
+  "homepage": "https://github.com/vini-j-pereira/BlockChain-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/vini-j-pereira/BlockChain-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vini-j-pereira/BlockChain-NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Vinícius José Pereira",
+  "type": "commonjs",
+  "main": "block.js",
+  "scripts": {
+    "test": "jest --watchALL"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  }
+}
