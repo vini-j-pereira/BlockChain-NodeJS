@@ -62,3 +62,44 @@ Este é um protótipo funcional e didático de uma **Blockchain com algoritmo Pr
  ┣ 📄 p2pServer.js         ← Servidor Peer-to-Peer
  ┗ 📄 apiServer.js         ← Servidor da API REST
 
+
+---
+
+## 🔗 Funcionalidades
+
+- ✅ Criação de blocos com dados encadeados por hash
+- ✅ Bloco genesis fixo e validado
+- ✅ Algoritmo de mineração Proof-of-Work
+- ✅ Validação da blockchain (estrutura e integridade)
+- ✅ Servidor HTTP com rotas de API
+- ✅ Rede peer-to-peer para sincronização de blocos
+- ✅ Carteiras com chaves públicas e privadas (criptografia)
+- ✅ Transações assinadas com validação de saldo
+- ✅ Pool de transações (mempool)
+- ✅ Mineração de blocos contendo as transações pendentes
+- ✅ Atualização automática da blockchain entre os peers
+
+---
+
+## 📡 API REST - Endpoints
+
+| Método | Rota               | Descrição                                  |
+|--------|--------------------|--------------------------------------------|
+| GET    | `/blocks`          | Retorna todos os blocos da blockchain      |
+| POST   | `/transact`        | Cria nova transação                        |
+| GET    | `/transactions`    | Lista as transações pendentes na mempool  |
+| GET    | `/mine`            | Inicia mineração de um novo bloco         |
+| GET    | `/balance`         | Mostra o saldo atual da carteira local    |
+| GET    | `/public-key`      | Retorna a chave pública da carteira local |
+
+---
+
+## 🧪 Como Executar Localmente
+
+### 1. Clone o Repositório
+
+```bash
+git clone https://github.com/seu-usuario/simple-blockchain.git
+cd simple-blockchain
+
+
